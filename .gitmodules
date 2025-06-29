@@ -1,0 +1,6 @@
+[submodule "BACK"]
+	path = BACK
+	url = https://github.com/felipe-sant/BACK-MNIST_Classifier.git
+[submodule "AI"]
+	path = AI
+	url = https://github.com/felipe-sant/AI-MNIST_Classifier.git
