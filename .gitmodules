@@ -4,3 +4,6 @@
 [submodule "AI"]
 	path = AI
 	url = https://github.com/felipe-sant/AI-MNIST_Classifier.git
+[submodule "FRONT"]
+	path = FRONT
+	url = https://github.com/felipe-sant/FRONT-MNIST_Classifier.git
