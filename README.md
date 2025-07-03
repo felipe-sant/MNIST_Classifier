@@ -12,9 +12,18 @@
 
 Esta aplicação permite ao usuário desenhar um número na tela, e utiliza Inteligência Artificial para tentar adivinhar qual foi o número desenhado. O projeto faz uso de um classificador baseado no dataset MNIST, um modelo de aprendizado de máquina amplamente utilizado para reconhecer dígitos manuscritos em imagens.
 
-<hr>
-
 > [Acesse a aplicação aqui.](https://mnist-classifier-eight.vercel.app/)
+
+## 🎯 Objetivos
+
+Este projeto integra um conjunto de iniciativas voltadas para o aprendizado em Inteligência Artificial. O foco principal é o desenvolvimento de competências em deep learning, e os objetivos a seguir refletem as metas já alcançadas e as que ainda estão em progresso:
+
+- [x] Desenvolvimento de uma inteligência artificial funcional;
+- [x] Elaboração de scripts e manipulação de datasets para aprendizado de máquina;
+- [x] Implementação de rotas de comunicação entre a API e a IA;
+- [x] Exploração da comunicação entre diferentes aplicações utilizando linguagens distintas;
+- [x] Geração de imagens no frontend utilizando o Canvas;
+- [x] Aprendizado sobre o envio de imagens via HTTP;
 
 ## 🏗️ Estrutura do Projeto
 
@@ -37,3 +46,9 @@ Esta camada, construída com Express, faz a ponte entre o usuário e a Inteligê
 Nesta aplicação, foi utilizado TensorFlow para o desenvolvimento do modelo de IA, o dataset MNIST para treinamento e validação, e FastAPI para expor os endpoints de comunicação. O projeto conta com três scripts principais: um para criação e treinamento do modelo, outro para testes e um terceiro para definição das rotas de comunicação. Ao receber uma imagem do backend, a aplicação utiliza o modelo treinado para prever qual número foi desenhado, retornando ao backend o valor com a maior probabilidade.
 
 > [Ver repositório](https://github.com/felipe-sant/AI-MNIST_Classifier)
+
+<hr>
+
+<div align="center">
+    developed by <a href="https://github.com/felipe-sant?tab=followers">@felipe-sant</a>
+</div>
